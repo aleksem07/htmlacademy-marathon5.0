@@ -1,0 +1,44 @@
+.our-works {
+  margin-left: 100px;
+  margin-bottom: 65px;
+
+  &__title {
+    margin-bottom: 40px;
+  }
+}
+
+
+.img-collect__item{
+  margin-bottom: 30px;
+}
+
+
+.img-collect__item:first-child {
+  margin-right: 20px;
+}
+
+.img-collect__item:hover {
+
+}
+
+.our-works__more {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 37px;
+}
+
+.more__arrow {
+  margin-left: 10px;
+}
+
+// .our-works__more::after {
+//   content: "";
+//   position: absolute;
+//   width: 100px;
+//   height: 100px;
+//   background: url("@img/icon/arrow-right.svg") no-repeat;
+// }
+

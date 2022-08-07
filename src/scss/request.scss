@@ -1,0 +1,62 @@
+.request {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 20px;
+  height: 624px;
+  background-color: #533738;
+  color: #fff;
+
+
+  &__form {
+    margin-left: 30%;
+    padding-top: 50px;
+  }
+
+  &__title {
+    margin-bottom: 24px;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+}
+
+.form__paragraph {
+  color: rgba($color: #fff, $alpha: 0.6);
+  margin-bottom: 44px;
+  line-height: 30px;
+}
+
+.form__section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.form__item {
+  margin-bottom: 35px;
+  border-bottom: 1px solid #fff;
+}
+
+.form__input {
+  color: rgb(70, 23, 199);
+  background: transparent;
+}
+
+input::placeholder {
+color: #F6EDE9;
+}
+
+input:focus::placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.button--request {
+  color: #533738;
+}
+
+.request__map {
+  width: 590px;
+  height: 624px;
+  background-color: rgb(146, 146, 146);
+  background: url("@img/map.png") no-repeat;
+}

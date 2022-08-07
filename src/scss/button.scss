@@ -1,0 +1,21 @@
+.button {
+  width: 309px;
+  height: 74px;
+  background-color: #CC8B86;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  transition: 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ac726e;
+    transition: 0.3s ease;
+    color: #eca29d
+}
+
+.button:active {
+    background-color: #e49893;
+    transition: 0.3s ease;
+    color: #a16e6a
+}
