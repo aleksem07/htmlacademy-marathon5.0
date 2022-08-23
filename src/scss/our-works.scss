@@ -1,24 +1,24 @@
 .our-works {
-  margin-left: 100px;
-  margin-bottom: 65px;
-
+	// margin-bottom: 65px;
+	
   &__title {
+		margin-left: 100px;
     margin-bottom: 40px;
   }
 }
 
+.img-collect__list {
+	text-align: center;
+}
 
-.img-collect__item{
+.img-collect__item {
   margin-bottom: 30px;
 }
 
 
+
 .img-collect__item:first-child {
   margin-right: 20px;
-}
-
-.img-collect__item:hover {
-
 }
 
 .our-works__more {
@@ -28,6 +28,7 @@
   font-size: 30px;
   font-weight: 500;
   line-height: 37px;
+	margin-bottom: 37px;
 }
 
 .more__arrow {

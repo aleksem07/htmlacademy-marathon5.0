@@ -11,14 +11,14 @@
   &__list {
     display: flex;
     flex-wrap: wrap;
-		width: max-content;
-    // margin-left: 181px;
+		justify-content: center;
     margin-bottom: 35px;
   }
 
   &__item {
     max-width: 320px;
     margin-right: 38px;
+		margin-bottom: 27px;
   }
 
   &__item:last-child {
@@ -39,8 +39,8 @@
 .how-we-work__list{
   display: flex;
   flex-wrap: wrap;
+	justify-content: center;
   list-style-type: none;
-  margin-left: 99px;
   padding-bottom: 80px;
 }
 

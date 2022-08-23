@@ -19,3 +19,28 @@
     transition: 0.3s ease;
     color: #a16e6a
 }
+
+.button--header {
+	margin-bottom: 135px;
+}
+
+.feedback__prev,
+.feedback__next {
+  min-width: 72px;
+  min-height: 72px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #CC8B86;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.feedback__prev {
+	margin-right: 29px;
+	background-image: url("@img/icon/arrow-white-left.svg");
+}
+
+.feedback__next {
+	margin-left: 29px;
+  background-image: url("@img/icon/arrow-white-right.svg");
+}

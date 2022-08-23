@@ -47,7 +47,6 @@
 		"html-webpack-plugin": "latest",
 		"inputmask": "latest",
 		"lightgallery": "latest",
-		"linthtml-config-htmlacademy": "^1.0.3",
 		"load-plugins": "latest",
 		"mini-css-extract-plugin": "2.4.7",
 		"nouislider": "latest",
@@ -71,7 +70,6 @@
 		"webpack-stream": "latest"
 	},
 	"dependencies": {
-		"inspect": "^0.0.2",
 		"simplebar": "latest"
 	}
 }

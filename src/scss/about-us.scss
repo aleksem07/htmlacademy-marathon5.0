@@ -8,22 +8,23 @@
   }
 
   &__wrapper {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 3px;
+		display: grid;
+    grid-template-columns: 45% 55%;
+    grid-column-gap: 60px;
     margin-bottom: 21px;
   }
-
+	
   &__img {
-    margin-left: auto;
-    margin-right: 63px;
-    width: 444px;
-    height: 465px;
+	max-width: 100%;
+	height: auto;
+	background-image: url(../img/about-us.jpg);
+	background-repeat: no-repeat;
+	background-position: right 0;
+	background-size: contain;
   }
 
   &__text-wrapper {
     max-width: 528px;
-    margin-right: auto;
   }
 
   &__text {

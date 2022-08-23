@@ -37,18 +37,22 @@
 }
 
 .form__input {
-  color: rgb(70, 23, 199);
+  color: #F6EDE9;
   background: transparent;
 }
 
 input::placeholder {
-color: #F6EDE9;
+	color: #F6EDE9;
 }
 
 input:focus::placeholder {
-  opacity: 0;
+	opacity: 0;
   transition: opacity 0.3s ease;
 }
+
+// input:checked {
+// 	border: 5px solid red !important;
+// }
 
 .button--request {
   color: #533738;
