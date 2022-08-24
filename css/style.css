@@ -222,12 +222,10 @@ h2 {
   background-image: url("../img/icon/arrow-white-right.svg");
 }
 
-.no-webp .header{
-  background-image: url("../img/bcg/header.jpg"); }
-
 .header {
   width: 100%;
   height: auto;
+  background-image: url("../img/bcg/header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 65px;
@@ -388,12 +386,10 @@ a.logo--icon::before {
   margin-bottom: 21px;
 }
 
-.no-webp .about-us__img{
-  background-image: url(../img/about-us.jpg); }
-
 .about-us__img {
   max-width: 100%;
   height: auto;
+  background-image: url(../img/about-us.jpg);
   background-repeat: no-repeat;
   background-position: right 0;
   background-size: contain;
@@ -715,13 +711,11 @@ input:focus::placeholder {
   color: #533738;
 }
 
-.no-webp .request__map{
-  background: url("../img/map.png") no-repeat; }
-
 .request__map {
   width: 590px;
   height: 624px;
   background-color: rgb(146, 146, 146);
+  background: url("../img/map.png") no-repeat;
 }
 
 .footer {
@@ -747,9 +741,3 @@ input:focus::placeholder {
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
-
-.webp .header{ background-image: url(../img/bcg/header.webp); }
-
-.webp .about-us__img{ background-image: url(../img/about-us.webp); }
-
-.webp .request__map{ background: url(../img/map.webp) no-repeat; }
