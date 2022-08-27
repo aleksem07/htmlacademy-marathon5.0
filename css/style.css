@@ -242,6 +242,7 @@ h2 {
   -webkit-box-flex: 2;
       -ms-flex-positive: 2;
           flex-grow: 2;
+  text-align: left;
   min-width: -webkit-max-content;
   min-width: -moz-max-content;
   min-width: max-content;
@@ -743,8 +744,103 @@ input:focus::placeholder {
 }
 
 @media screen and (max-width: 800px) {
+
   .header-text__wrapper {
     margin: 0 auto;
     text-align: center;
+  }
+
+  .header-text {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .nav {
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .nav__item {
+    gap: 10px;
+  }
+
+  .logo,
+  .header__phone {
+    width: 100%;
+    text-align: center;
+    order: -1;
+  }
+
+  .about-us__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-us__text-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+  }
+
+  .img-collect__list > .img-collect__item {
+    margin-right: 0;
+  }
+
+  .team__item {
+    margin-right: 5px;
+  }
+
+  .how-we-work__title {
+    width: min-content;
+    text-align: center;
+  }
+
+  .how-we-work__item {
+    margin-bottom: 20px;
+  }
+
+  .feedback__container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .feedback__title {
+    margin-bottom: 80px;
+  }
+
+  .feedback__prev,
+  .feedback__next {
+    position: absolute;
+    margin-top: -80px;
+  }
+  .feedback__next{
+    margin-left: 150px;
+  }
+  .feedback__prev {
+    margin-right: 150px;
+  }
+
+  .request {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 480px;
+  }
+
+  .request__form {
+    margin: 0;
+    padding: 0px 10px 10px 10px;
+  }
+
+  .request__map {
+    margin: 0 auto;
+  }
+
+  .button--request {
+    width: 100%;
+  }
+
+  .footer {
+  padding: 0 10px;
   }
 }
