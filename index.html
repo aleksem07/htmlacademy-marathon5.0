@@ -1,275 +1,385 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <title>SCANDI</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-<head>
-	<title>SCANDI</title>
-	<meta charset="UTF-8" />
-	<meta name="format-detection" content="telephone=no" />
-	<link rel="stylesheet" href="css/style.css" />
-	<link rel="shortcut icon" href="favicon.ico" />
-	<link rel="manifest" href="/manifest.json" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-
-<body>
-	<div class="wrapper wrapper__container">
-		<header class="header">
-			<h1 class="visually-hidden" id="up">SCANDI - неповторимые интерьеры.</h1>
-			<div class="header__wrapper">
-				<nav class="nav__container">
+  <body class="body__container">
+    <div class="wrapper">
+      <header class="header">
+        <h1 class="visually-hidden" id="up">
+          SCANDI - неповторимые интерьеры.
+        </h1>
+        <div class="header__wrapper">
+          <nav class="nav nav__container">
             <p class="logo">SCANDI</p>
-					<ul class="nav__item">
-						<li class="nav__list"><a href="#about">О компании</a></li>
-						<li class="nav__list"><a href="#portfolio">Портфолио</a></li>
-						<li class="nav__list"><a href="#team">Команда</a></li>
-						<li class="nav__list"><a href="#how-we-works">Как мы работаем</a></li>
-						<li class="nav__list"><a href="#feedback">Отзывы клиентов</a></li>
-						<li class="nav__list"><a href="#request">Оставить заявку</a></li>
-					</ul>
-					<div class="header__phone">
-						<a href="tel:+79818574624">+7(981)857-46-24</a>
-					</div>
-				</nav>
-				<a href="#up">
-					<img class="arrow__up" src="img/icon/arrow-up.png" alt="В начало" width="50" height="50" />
-				</a>
+            <ul class="nav__item">
+              <li class="nav__list"><a href="#about">О компании</a></li>
+              <li class="nav__list"><a href="#portfolio">Портфолио</a></li>
+              <li class="nav__list"><a href="#team">Команда</a></li>
+              <li class="nav__list">
+                <a href="#how-we-works">Как мы работаем</a>
+              </li>
+              <li class="nav__list"><a href="#feedback">Отзывы клиентов</a></li>
+              <li class="nav__list"><a href="#request">Оставить заявку</a></li>
+            </ul>
+            <div class="header__phone">
+              <a href="tel:+79818574624">+7(981)857-46-24</a>
+            </div>
+          </nav>
+          <a href="#up">
+            <img
+              class="arrow-up"
+              src="img/icon/arrow-up.png"
+              alt="В начало"
+              width="50"
+              height="50"
+            />
+          </a>
 
-				<div class="header-text__wrapper">
-					<h2 class="heading-title__wrapper">
-						Поможем сделать<br />
-						вашу квартиру<br />
-						уютнее
-					</h2>
-					<p class="text text__wrapper">
-						Подбираем текстиль, мебель и аксессуары<br />
-						под ваш интерьер, находим магазины<br />
-						и помогаем организовать доставку
-					</p>
-					<button class="button button--header" type="button">
-						Оставить заявку
-					</button>
-				</div>
-			</div>
-		</header>
+          <div class="header-text">
+            <h2 class="header-text__title">
+              Поможем сделать<br />
+              вашу квартиру<br />
+              уютнее
+            </h2>
+            <p class="header-text__text">
+              Подбираем текстиль, мебель и аксессуары<br />
+              под ваш интерьер, находим магазины<br />
+              и помогаем организовать доставку
+            </p>
+            <button class="button button--header" type="button">
+              Оставить заявку
+            </button>
+          </div>
+        </div>
+      </header>
 
-		<main class="page">
-			<div class="about-us">
-				<h2 class="about-us__title title__container" id="about">о нас</h2>
-				<div class="about-us__wrapper">
-					<div class="about-us__img"></div>
-					<div class="about-us__text-wrapper">
-						<p class="about-us__text">
-							Премиальный европейский текстиль — одно из самых главных направлений работы
-							коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов,
-							уделяя внимание мельчайшим деталям — вот то, что по-настоящему вдохновляет
-							дизайнеров нашей студии.
-						<p class="about-us__text">
-							Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать:<br>« Да! Это именно то, что действительно достойно моего дома!» дизайнеров нашей студии. </p>
-						</p>
-					</div>
-				</div>
-				<dl class="about-us__numbers">
-					<div class="about-us__item">
-						<dt>5</dt>
-						<dd>лет опыта</dd>
-					</div>
-					<div class="about-us__item">
-						<dt>100</dt>
-						<dd>проектов</dd>
-					</div>
-					<div class="about-us__item">
-						<dt>10</dt>
-						<dd>наград</dd>
-					</div>
-				</dl>
-			</div>
-			<section class="our-works">
-				<h2 class="our-works__title" id="portfolio">Наши работы</h2>
+      <main class="page">
+        <div class="about-us">
+          <h2 class="about-us__title" id="about">О нас</h2>
+          <div class="about-us__wrapper">
+            <div class="about-us__img"></div>
+            <div class="about-us__text-wrapper">
+              <p class="about-us__text">
+                Премиальный европейский текстиль — одно из самых главных
+                направлений работы коллектива. Создавать неповторимые интерьеры
+                для наших дорогих клиентов, уделяя внимание мельчайшим деталям —
+                вот то, что по-настоящему вдохновляет дизайнеров нашей студии.
+              </p>
+              <p class="about-us__text">
+                Наш коллектив сделает все, чтобы после сотрудничества с нами,
+                Вам было приятно сказать:<br />« Да! Это именно то, что
+                действительно достойно моего дома!» дизайнеров нашей студии.
+              </p>
+            </div>
+          </div>
+          <dl class="about-us__numbers">
+            <div class="about-us__item">
+              <dt>5</dt>
+              <dd>лет опыта</dd>
+            </div>
+            <div class="about-us__item">
+              <dt>100</dt>
+              <dd>проектов</dd>
+            </div>
+            <div class="about-us__item">
+              <dt>10</dt>
+              <dd>наград</dd>
+            </div>
+          </dl>
+        </div>
+        <section class="our-works">
+          <h2 class="our-works__title" id="portfolio">Наши работы</h2>
 
-				<div class="our-works__img-collect">
-					<ul class="img-collect__list">
+          <div class="our-works__img-collect img-collect">
+            <ul class="img-collect__list">
+              <li class="img-collect__item">
+                <div class="description">
+                  <h3 class="description__title">
+                    Квартира-студия<br />
+                    30 кв.м.
+                  </h3>
+                  <p class="description__text">
+                    В квартире были светлые стены и тёплые цвета. Мы
+                    сконцентрировались<br />
+                    на отсылках к природе и сделали ребятам уютный интерьер,
+                    отсылающий к виллам островов Бали.
+                  </p>
+                </div>
+                <img
+                  class="img-bcg"
+                  src="img/our-works/image-55.jpg"
+                  alt=""
+                  width="488"
+                  height="451"
+                />
+              </li>
+              <li class="img-collect__item">
+                <div class="description">
+                  <h3 class="description__title">
+                    Квартира-студия<br />
+                    31 кв.м.
+                  </h3>
+                  <p class="description__text">
+                    Далеко-далеко за словесными горами в стране, гласных и
+                    согласных живут рыбные тексты. Реторический свой агентство
+                    пояс если заглавных, подпоясал парадигматическая себя
+                    скатился. Текст первую дороге живет несколько все продолжил,
+                    она рот единственное.
+                  </p>
+                </div>
+                <img
+                  class="img-bcg"
+                  src="img/our-works/image-134.jpg"
+                  alt=""
+                  width="692"
+                  height="451"
+                />
+              </li>
+              <li class="img-collect__item">
+                <div class="description">
+                  <h3 class="description__title">
+                    Квартира-нестудия<br />
+                    32 кв.м.
+                  </h3>
+                  <p class="description__text">
+                    Далеко-далеко за словесными горами в стране гласных и
+                    согласных живут рыбные тексты. Наш снова даль себя.
+                    Возвращайся путь вопроса дал. Там скатился собрал выйти злых
+                    страна за буквенных рыбными заманивший. Коварный, ты.
+                  </p>
+                </div>
+                <img
+                  class="img-bcg"
+                  src="img/our-works/image-132.jpg"
+                  alt=""
+                  width="692"
+                  height="451"
+                />
+              </li>
+              <li class="img-collect__item">
+                <div class="description">
+                  <h3 class="description__title">
+                    Квартира<br />
+                    29 кв.м.
+                  </h3>
+                  <p class="description__text">
+                    Далеко-далеко за словесными горами в стране гласных и
+                    согласных живут рыбные тексты. Знаках вскоре деревни
+                    семантика по всей грамматики вершину меня прямо за раз,
+                    встретил океана заглавных пунктуация маленькая повстречался
+                    курсивных своего бросил!
+                  </p>
+                </div>
+                <img
+                  class="img-bcg"
+                  src="img/our-works/image-56.jpg"
+                  alt=""
+                  width="488"
+                  height="451"
+                />
+              </li>
+            </ul>
+          </div>
 
-            <li class="img-collect__item">
-              <div class="description">
-                <h3 class="description__title">
-                  Квартира-студия<br />
-                  30 кв.м.
-                </h3>
-                <p class="description__text">
-                  В квартире были светлые стены и тёплые цвета. Мы сконцентрировались<br>
-                  на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.
-                </p>
-              </div>
-              <img class="img-bcg" src="img/our-works/image-55.jpg" alt="" width="488" height="451" />
+          <a class="our-works__more title__container">
+            Смотреть ещё
+            <img
+              class="our-works__more-arrow"
+              src="img/icon/arrow-right.svg"
+              alt=""
+          /></a>
+        </section>
+
+        <section class="team">
+          <h2 class="team__title title__container" id="team">Команда</h2>
+          <ul class="team__list team__container">
+            <li class="team__item">
+              <img
+                class="img-bcg team__img"
+                src="img/team/masha.jpg"
+                alt=""
+                width="320"
+                height="253"
+              />
+              <p class="team__text">
+                Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект,
+                приезжает к вам домой, общается <br />
+                и помогает сделать вашу квартиру красивой и уютной.
+              </p>
             </li>
-						<li class="img-collect__item">
-              <div class="description">
-                <h3 class="description__title">
-                  Квартира-студия<br />
-                  31 кв.м.
-                </h3>
-                <p class="description__text">
-                  Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Реторический свой агентство пояс если заглавных, подпоясал парадигматическая себя скатился. Текст первую дороге живет несколько все продолжил, она рот единственное.
-                </p>
-              </div>
-              <img class="img-bcg" src="img/our-works/image-134.jpg" alt="" width="692" height="451" />
+            <li class="team__item">
+              <img
+                class="img-bcg team__img"
+                src="img/team/sasha.jpg"
+                alt=""
+                width="320"
+                height="253"
+              />
+              <p class="team__text">
+                С нашим менеджером Сашей вы познакомитесь в первую очередь. Она
+                проконсультирует вас, соберёт все документы и ответит на все
+                вопросы.
+              </p>
             </li>
-						<li class="img-collect__item">
-              <div class="description">
-                <h3 class="description__title">
-                  Квартира-нестудия<br />
-                  32 кв.м.
-                </h3>
-                <p class="description__text">
-                  Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Наш снова даль себя. Возвращайся путь вопроса дал. Там скатился собрал выйти злых страна за буквенных рыбными заманивший. Коварный, ты.
-                </p>
-              </div>
-              <img class="img-bcg" src="img/our-works/image-132.jpg" alt="" width="692" height="451" />
-            </li>
-						<li class="img-collect__item">
-              <div class="description">
-                <h3 class="description__title">
-                  Квартира<br />
-                  29 кв.м.
-                </h3>
-                <p class="description__text">
-                  Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Знаках вскоре деревни семантика по всей грамматики вершину меня прямо за раз, встретил океана заглавных пунктуация маленькая повстречался курсивных своего бросил!
-                </p>
-              </div>
-              <img class="img-bcg" src="img/our-works/image-56.jpg" alt="" width="488" height="451" />
+            <li class="team__item">
+              <img
+                class="img-bcg team__img"
+                src="img/team/katya.jpg"
+                alt=""
+                width="320"
+                height="253"
+              />
+              <p class="team__text">
+                Катя тоже занимается дизайном. Она всегда находит общий язык с
+                клиентами и точно знает, как обустроить дом так, чтобы вам
+                понравилось.
+              </p>
             </li>
           </ul>
-					</div>
+          <section class="how-we-work">
+            <h2 class="how-we-work__title" id="how-we-works">
+              Как мы работаем
+            </h2>
+            <ol class="how-we-work__list">
+              <li class="how-we-work__item">
+                <div class="how-we-work__numbers">1</div>
+                <p class="how-we-work__text">
+                  Знакомимся, выезжаем на объект, утверждаем концепцию,
+                  подписываем договор.
+                </p>
+              </li>
+              <li class="how-we-work__item">
+                <div class="how-we-work__numbers">2</div>
+                <p class="how-we-work__text">
+                  Подбираем мебель, текстиль, аксессуары. Делаем 3D-
+                  визуализацию.
+                </p>
+              </li>
+              <li class="how-we-work__item">
+                <div class="how-we-work__numbers">3</div>
+                <p class="how-we-work__text">
+                  Находим нужные магазины, помогаем с доставкой <br />
+                  и оплатой товаров.
+                </p>
+              </li>
+              <li class="how-we-work__item">
+                <div class="how-we-work__numbers">4</div>
+                <p class="how-we-work__text">
+                  Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем
+                  шторы, находим места для мелочей
+                </p>
+              </li>
+            </ol>
+          </section>
+        </section>
+        <section class="feedback">
+          <h2 class="feedback__title title__container" id="feedback">Отзывы</h2>
+          <div class="feedback__container">
+            <button class="feedback__prev" type="button"></button>
+            <blockquote class="feedback__blockquote">
+              <p>
+                «Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала
+                вашу студию для украшения своего дома.
+              </p>
+              <p>
+                Работа шла быстро, было очень приятно общаться и
+                взаимодествовать с сотрудниками. Не ожидала, что это будет<br />
+                так легко!
+              </p>
+              <p>Буду советовать и своим друзьям к вам обращаться!»</p>
+              <cite>Анна Беловская</cite>
+            </blockquote>
+            <div class="feedback__img-wrapper">
+              <img
+                class="feedback__img img-bcg"
+                src="img/feedback/image-62.jpg"
+                alt=""
+                width="407"
+                height="272"
+              />
+              <img
+                class="feedback__img img-bcg"
+                src="img/feedback/image-63.jpg"
+                alt=""
+                width="407"
+                height="272"
+              />
+            </div>
+            <button class="feedback__next" type="button"></button>
+          </div>
+        </section>
 
-				<a class="our-works__more title__container">
-					Смотреть ещё
-					<img class="more__arrow" src="img/icon/arrow-right.svg" alt="" /></a>
-			</section>
-
-			<section class="team">
-				<h2 class="team__title title__container" id="team">Команда</h2>
-				<ul class="team__list team__container">
-					<li class="team__item">
-						<img class="img-bcg team__img" src="img/team/masha.jpg" alt="" width="320" height="253" />
-						<p class="team__text">
-							Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает
-							к вам домой, общается <br />
-							и помогает сделать вашу квартиру красивой и уютной.
-						</p>
-					</li>
-					<li class="team__item">
-						<img class="img-bcg team__img" src="img/team/sasha.jpg" alt="" width="320" height="253" />
-						<p class="team__text">
-							С нашим менеджером Сашей вы познакомитесь в первую очередь. Она
-							проконсультирует вас, соберёт все документы и ответит на все вопросы.
-						</p>
-					</li>
-					<li class="team__item">
-						<img class="img-bcg team__img" src="img/team/katya.jpg" alt="" width="320" height="253" />
-						<p class="team__text">
-							Катя тоже занимается дизайном. Она всегда находит общий язык с клиентами
-							и точно знает, как обустроить дом так, чтобы вам понравилось.
-						</p>
-					</li>
-				</ul>
-				<h2 class="how-we-work__title title__container" id="how-we-works">
-					Как мы работаем
-				</h2>
-
-				<ol class="how-we-work__list">
-					<li class="how-we-work__item">
-						<div class="how-we-work__numbers">1</div>
-						<p class="how-we-work__text">
-							Знакомимся, выезжаем на объект, утверждаем концепцию, подписываем
-							договор.
-						</p>
-					</li>
-					<li class="how-we-work__item">
-						<div class="how-we-work__numbers">2</div>
-						<p class="how-we-work__text">
-							Подбираем мебель, текстиль, аксессуары. Делаем 3D- визуализацию.
-						</p>
-					</li>
-					<li class="how-we-work__item">
-						<div class="how-we-work__numbers">3</div>
-						<p class="how-we-work__text">
-							Находим нужные магазины, помогаем с доставкой <br />
-							и оплатой товаров.
-						</p>
-					</li>
-					<li class="how-we-work__item">
-						<div class="how-we-work__numbers">4</div>
-						<p class="how-we-work__text">
-							Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы,
-							находим места для мелочей
-						</p>
-					</li>
-				</ol>
-			</section>
-			<section class="feedback">
-				<h2 class="feedback__title title__container" id="feedback">отзывы</h2>
-				<div class="feedback__container">
-					<button class="feedback__prev" type="button"></button>
-					<blockquote class="feedback__blockquote">
-						<p>
-							«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу
-							студию для украшения своего дома.
-						</p>
-						<p>
-							Работа шла быстро, было очень приятно общаться и взаимодествовать с
-							сотрудниками. Не ожидала, что это будет<br />
-							так легко!
-						</p>
-						<p>Буду советовать и своим друзьям к вам обращаться!»</p>
-						<cite>Анна Беловская</cite>
-					</blockquote>
-					<div class="feedback__img-wrapper">
-						<img class="feedback__img img-bcg" src="img/feedback/image-62.jpg" alt="" width="407" height="272" />
-						<img class="feedback__img img-bcg" src="img/feedback/image-63.jpg" alt="" width="407" height="272" />
-					</div>
-					<button class="feedback__next" type="button"></button>
-				</div>
-			</section>
-
-			<section class="request">
-				<div class="request__form">
-					<h2 class="request__title" id="request">Оставить заявку</h2>
-					<form class="form" action="" method="get">
-						<p class="form__paragraph">
-							Оставьте свои контакты. Менеджер перезвонит в удобное вам время и
-							ответит на все вопросы.
-						</p>
-						<fieldset class="form__section">
-							<label class="form__item">
-								<input class="form__input" name="name" type="text" placeholder="Ваше имя" pattern="^[А-Яа-яЁёa-zA-Z\s]+$" required />
-							</label>
-							<label class="form__item">
-								<input class="form__input" name="phone" type="text" placeholder="Введите телефон" pattern="^[ 0-9]+$" required />
-							</label>
-							<button class="button button--request" type="submit">
-								Оставить заявку
-							</button>
-						</fieldset>
-					</form>
-				</div>
-				<div class="request__map">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651609!2d30.32089461605499!3d59.93879418187622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1659788736378!5m2!1sru!2sru" width="590" height="624" style="border: 0" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-				</div>
-			</section>
-
-		</main>
-		<footer class="footer">
-			<ul class="footer__item">
-				<li class="footer__list">
-					<a href="tel:+79818574624">+7 (981) 857-46-24</a>
-				</li>
-				<li class="footer__list">г. Санкт-петербург, ул. Большая Конюшенная, 19</li>
-				<li class="footer__list">ИП Королёва А.А.</li>
-			</ul>
-		</footer>
-
-	</div>
-	<script src="js/app.min.js?_v=20220824221444"></script>
-</body>
-
+        <section class="request">
+          <div class="request__form">
+            <h2 class="request__title" id="request">Оставить заявку</h2>
+            <form class="form" action="#" method="get">
+              <p class="form__paragraph">
+                Оставьте свои контакты. Менеджер перезвонит в удобное вам время
+                и ответит на все вопросы.
+              </p>
+              <fieldset class="form__section">
+                <label class="form__item">
+                  <input
+                    class="form__input"
+                    name="name"
+                    type="text"
+                    placeholder="Ваше имя"
+                    pattern="^[А-Яа-яЁёa-zA-Z\s]+$"
+                    required
+                  />
+                </label>
+                <label class="form__item">
+                  <input
+                    class="form__input"
+                    name="phone"
+                    type="text"
+                    placeholder="Введите телефон"
+                    pattern="^[ 0-9]+$"
+                    required
+                  />
+                </label>
+                <button class="button button--request" type="submit">
+                  Оставить заявку
+                </button>
+              </fieldset>
+            </form>
+          </div>
+          <div class="request__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651609!2d30.32089461605499!3d59.93879418187622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1659788736378!5m2!1sru!2sru"
+              width="590"
+              height="624"
+              style="border: 0"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <h2 class="visually-hidden">Контакты</h2>
+        <ul class="footer__item">
+          <li class="footer__list">
+            <a href="tel:+79818574624">+7 (981) 857-46-24</a>
+          </li>
+          <li class="footer__list">
+            г. Санкт-петербург, ул. Большая Конюшенная, 19
+          </li>
+          <li class="footer__list">ИП Королёва А.А.</li>
+        </ul>
+      </footer>
+    </div>
+    <script src="js/app.min.js?_v=20220824221444"></script>
+  </body>
 </html>
