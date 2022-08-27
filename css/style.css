@@ -1,7 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap);
 
-@charset "UTF-8";
-
 * {
   padding: 0px;
   margin: 0px;
@@ -105,13 +103,6 @@ h6 {
   min-width: 0;
 }
 
-/*
-(i) Стили будут применяться ко
-всем классам содержащим *__container
-Например header__container, main__container и т.д.
-Снипет (HTML): cnt
-*/
-
 [class*=__container] {
   max-width: 87.5rem;
   -webkit-box-sizing: content-box;
@@ -130,12 +121,12 @@ h6 {
   top: 0;
   left: 0;
   -o-object-fit: cover;
-     object-fit: cover;
+    object-fit: cover;
 }
 
 [class*=-ibg_contain] img {
   -o-object-fit: contain;
-     object-fit: contain;
+    object-fit: contain;
 }
 
 body {
@@ -181,7 +172,9 @@ h2 {
   transition: 0.3s ease;
 }
 
-.button:hover {
+.button:hover,
+.feedback__prev:hover,
+.feedback__next:hover {
   background-color: #ac726e;
   -webkit-transition: 0.3s ease;
   -o-transition: 0.3s ease;
@@ -189,7 +182,9 @@ h2 {
   color: #eca29d;
 }
 
-.button:active {
+.button:active,
+.feedback__prev:active,
+.feedback__next:active {
   background-color: #e49893;
   -webkit-transition: 0.3s ease;
   -o-transition: 0.3s ease;
@@ -233,12 +228,11 @@ h2 {
 
 .logo {
   width: 180px;
+  padding-top: 5px;
   text-align: right;
-}
-
-.logo--icon {
-  width: 65px;
-  height: 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .header__phone {
@@ -321,56 +315,6 @@ h2 {
   margin-bottom: 21px;
 }
 
-/*
-.icon-menu {
-	display: none;
-	@media (max-width: $mobile) {
-		display: block;
-		position: relative;
-		width: rem(30);
-		height: rem(18);
-		cursor: pointer;
-		z-index: 5;
-		span,
-		&::before,
-		&::after {
-			content: "";
-			transition: all 0.3s ease 0s;
-			right: 0;
-			position: absolute;
-			width: 100%;
-			height: rem(2);
-			background-color: #000;
-		}
-		&::before {
-			top: 0;
-		}
-		&::after {
-			bottom: 0;
-		}
-		span {
-			top: calc(50% - rem(1));
-		}
-		.menu-open & {
-			span {
-				width: 0;
-			}
-			&::before,
-			&::after {
-			}
-			&::before {
-				top: calc(50% - rem(1));
-				transform: rotate(-45deg);
-			}
-			&::after {
-				bottom: calc(50% - rem(1));
-				transform: rotate(45deg);
-			}
-		}
-	}
-}
-*/
-
 .about-us {
   margin-bottom: 65px;
 }
@@ -443,15 +387,59 @@ h2 {
 }
 
 .img-collect__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
 }
 
 .img-collect__item {
   margin-bottom: 30px;
+  position: relative;
 }
 
-.img-collect__item:first-child {
+.img-collect__item:nth-child(odd) {
   margin-right: 20px;
+}
+
+.img-collect__list-description{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.description {
+  position: absolute;
+  color: #FFFFFF;
+  opacity: 0;
+
+}
+
+.description:hover {
+  opacity: 1;
+}
+
+.description__title {
+  margin: 86px 109px 28px 109px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+}
+
+.description__text {
+  padding: 0 35px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.img-collect__item:hover::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(0deg, rgba(100, 72, 69, 0.8) 0%, rgba(100, 72, 69, 0.8) 50%);
 }
 
 .our-works__more {
