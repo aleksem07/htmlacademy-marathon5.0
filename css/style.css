@@ -1,5 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap);
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+    url('../fonts/Montserrat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+    url('../fonts/Montserrat-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -29,6 +47,10 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  outline: none;
 }
 
 input,
@@ -591,7 +613,7 @@ h2 {
   grid-template-columns: 50% 50%;
   grid-column-gap: 20px;
   height: 624px;
-  background-color: #533738;
+  background-color: #8D7370;
   color: #fff;
 }
 
