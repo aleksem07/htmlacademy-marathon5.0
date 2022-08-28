@@ -203,6 +203,7 @@ h2 {
 .feedback__next {
   min-width: 72px;
   min-height: 72px;
+  margin-top: -25px;
   cursor: pointer;
   border-radius: 50%;
   background-color: #CC8B86;
@@ -222,11 +223,11 @@ h2 {
 
 .header {
   width: 100%;
-  height: auto;
+  height: 715px;
   background-image: url("../img/bcg/header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 65px;
+  margin-bottom: 63px;
 }
 
 .logo {
@@ -269,7 +270,7 @@ h2 {
       justify-content: space-around;
   gap: 15px;
   margin-top: 38px;
-  margin-bottom: 91px;
+  margin-bottom: 87px;
   font-size: 16px;
 }
 
@@ -312,11 +313,11 @@ h2 {
   -webkit-box-flex: 2;
       -ms-flex-positive: 2;
           flex-grow: 2;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
 }
 
 .header-text__text {
-  margin-bottom: 21px;
+  margin-bottom: 25px;
 }
 
 .about-us {
@@ -324,12 +325,14 @@ h2 {
 }
 
 .about-us__title {
-  margin: 0 auto;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  text-transform: lowercase;
+  margin: 0 auto;
   margin-bottom: 40px;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 50px;
 }
 
 .about-us__wrapper {
@@ -342,8 +345,9 @@ h2 {
 }
 
 .about-us__img {
-  max-width: 100%;
-  height: auto;
+  width: 445px;
+  height: 465px;
+  margin-left: auto;
   background-image: url(../img/about-us.jpg);
   background-repeat: no-repeat;
   background-position: right 0;
@@ -355,7 +359,7 @@ h2 {
 }
 
 .about-us__text {
-  margin-bottom: 40px;
+  margin-bottom: 34px;
 }
 
 .about-us__numbers {
@@ -373,6 +377,7 @@ h2 {
   padding: 0 80px;
   background-color: #8D7370;
   color: #fff;
+  text-transform: uppercase;
 }
 
 .about-us__item dt {
@@ -390,6 +395,9 @@ h2 {
 .our-works__title {
   margin-left: 100px;
   margin-bottom: 40px;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 50px;
 }
 
 .img-collect__list {
@@ -397,6 +405,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .img-collect__item {
@@ -448,6 +457,10 @@ h2 {
   background: linear-gradient(0deg, rgba(100, 72, 69, 0.8) 0%, rgba(100, 72, 69, 0.8) 50%);
 }
 
+.our-works {
+  margin-bottom: 65px;
+}
+
 .our-works__more {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -468,7 +481,7 @@ h2 {
 
 .team {
   background-color: #E2C4BA;
-  margin-bottom: 65px;
+  margin-bottom: 51px;
 }
 
 .team__title {
@@ -477,6 +490,9 @@ h2 {
   width: max-content;
   padding-top: 50px;
   margin-bottom: 40px;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 50px;
 }
 
 .team__list {
@@ -488,7 +504,7 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
 }
 
 .team__item {
@@ -504,6 +520,11 @@ h2 {
 .team__img {
   width: 320px;
   height: 253px;
+  margin-bottom: 10px;
+}
+
+.how-we-work {
+  margin-bottom: 55px;
 }
 
 .how-we-work__title {
@@ -511,7 +532,11 @@ h2 {
   width: -moz-max-content;
   width: max-content;
   margin: 0 auto;
+  padding-left: 38px;
   margin-bottom: 40px;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 50px;
 }
 
 .how-we-work__list {
@@ -529,6 +554,7 @@ h2 {
 
 .how-we-work__item {
   width: 285px;
+  margin: 0 10px;
 }
 
 .how-we-work__numbers {
@@ -544,6 +570,7 @@ h2 {
   width: 70px;
   height: 70px;
   margin: 0 auto;
+  margin-bottom: 20px;
   border-radius: 50%;
   font-size: 30px;
   color: #fff;
@@ -564,6 +591,7 @@ h2 {
   width: -moz-max-content;
   width: max-content;
   margin-bottom: 40px;
+  padding-left: 21px;
 }
 
 .feedback__container {
@@ -577,10 +605,15 @@ h2 {
 }
 
 .feedback__blockquote p {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.feedback__blockquote p:last-child {
+  margin-bottom: 10px !important;
 }
 
 .feedback__blockquote cite {
+  margin-top: -100px !important;
   line-height: 30px;
   font-style: normal;
   text-transform: uppercase;
@@ -612,26 +645,26 @@ h2 {
   display: grid;
   -ms-grid-columns: 50% 50%;
   grid-template-columns: 50% 50%;
-  grid-column-gap: 20px;
+  grid-column-gap: 10px;
   height: 624px;
   background-color: #8D7370;
   color: #fff;
 }
 
 .request__form {
-  margin-left: 30%;
-  padding-top: 50px;
+  margin-left: 26%;
+  padding-top: 45px;
 }
 
 .request__title {
-  margin-bottom: 24px;
+  margin-bottom: 10px;
   font-size: 40px;
   text-transform: uppercase;
 }
 
 .form__paragraph {
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 44px;
+  margin-bottom: 45px;
   line-height: 30px;
 }
 
@@ -648,7 +681,8 @@ h2 {
 }
 
 .form__item {
-  margin-bottom: 35px;
+  padding-bottom: 9px;
+  margin-bottom: 30px;
   border-bottom: 1px solid #fff;
 }
 
@@ -720,7 +754,7 @@ input:focus::placeholder {
 }
 
 .footer {
-  margin: 37px auto;
+  margin: 30px auto;
   width: 100%;
   padding: 0 100px;
 }
