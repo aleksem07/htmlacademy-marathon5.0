@@ -665,7 +665,7 @@ h2 {
   -ms-grid-columns: 50% 50%;
   grid-template-columns: 50% 50%;
   grid-column-gap: 10px;
-  height: 624px;
+  height: 100%;
   background-color: #8D7370;
   color: #fff;
 }
@@ -796,7 +796,7 @@ input:focus::placeholder {
   flex-grow: 1;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 
   .header-text__wrapper {
     margin: 0 auto;
@@ -907,7 +907,7 @@ input:focus::placeholder {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-bottom: 480px;
+    margin-bottom: 0;
   }
 
   .request__form {
